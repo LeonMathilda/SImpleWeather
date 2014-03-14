@@ -51,6 +51,29 @@
     self.backgroundImageView.frame = bounds;
     self.blurredImageView.frame = bounds;
     self.tableView.frame = bounds;
+    
+    CGRect headerFrame = [UIScreen mainScreen].bounds;
+    
+    CGFloat inset = 20;
+    
+    CGFloat temperatureHeight = 110;
+    CGFloat hiloHeight = 40;
+    CGFloat iconHeight = 30;
+    
+    CGRect hiloFrame = CGRectMake(inset
+                                   ,headerFrame.size.height - hiloHeight,
+                                   headerFrame.size.width - (2 * inset),
+                                   hiloHeight);
+    
+    CGRect temperatureFrame = CGRectMake(inset,
+                                         headerFrame.size.height - (temperatureHeight + hiloHeight),
+                                         headerFrame.size.width - (2* inset),
+                                         temperatureHeight);
+    
+    CGRect iconFrame = CGRectMake(inset,
+                                temperatureFrame.origin.y - iconHeight,
+                                  iconHeight, iconHeight);
+    
 }
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
