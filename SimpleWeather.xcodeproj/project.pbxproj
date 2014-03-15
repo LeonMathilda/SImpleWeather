@@ -389,6 +389,14 @@
 		35AB816618D29891009DCA58 /* TSMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AB802A18D29891009DCA58 /* TSMessageView.m */; };
 		35AB817B18D298BA009DCA58 /* WXController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AB817A18D298BA009DCA58 /* WXController.m */; };
 		35AB817C18D298BA009DCA58 /* WXController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AB817A18D298BA009DCA58 /* WXController.m */; };
+		35AB817F18D3875E009DCA58 /* WXClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AB817E18D3875E009DCA58 /* WXClient.m */; };
+		35AB818018D3875E009DCA58 /* WXClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AB817E18D3875E009DCA58 /* WXClient.m */; };
+		35AB818318D38771009DCA58 /* WXManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AB818218D38771009DCA58 /* WXManager.m */; };
+		35AB818418D38771009DCA58 /* WXManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AB818218D38771009DCA58 /* WXManager.m */; };
+		35AB818718D3878A009DCA58 /* WXCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AB818618D3878A009DCA58 /* WXCondition.m */; };
+		35AB818818D3878A009DCA58 /* WXCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AB818618D3878A009DCA58 /* WXCondition.m */; };
+		35AB818B18D3879E009DCA58 /* WXDailyForecast.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AB818A18D3879E009DCA58 /* WXDailyForecast.m */; };
+		35AB818C18D3879E009DCA58 /* WXDailyForecast.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AB818A18D3879E009DCA58 /* WXDailyForecast.m */; };
 		C2A3151DF0134A878A3A6823 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 544366F76DA54965A777AE63 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -1004,6 +1012,14 @@
 		35AB802A18D29891009DCA58 /* TSMessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSMessageView.m; sourceTree = "<group>"; };
 		35AB817918D298BA009DCA58 /* WXController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXController.h; sourceTree = "<group>"; };
 		35AB817A18D298BA009DCA58 /* WXController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXController.m; sourceTree = "<group>"; };
+		35AB817D18D3875E009DCA58 /* WXClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXClient.h; sourceTree = "<group>"; };
+		35AB817E18D3875E009DCA58 /* WXClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXClient.m; sourceTree = "<group>"; };
+		35AB818118D38771009DCA58 /* WXManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXManager.h; sourceTree = "<group>"; };
+		35AB818218D38771009DCA58 /* WXManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXManager.m; sourceTree = "<group>"; };
+		35AB818518D3878A009DCA58 /* WXCondition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXCondition.h; sourceTree = "<group>"; };
+		35AB818618D3878A009DCA58 /* WXCondition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXCondition.m; sourceTree = "<group>"; };
+		35AB818918D3879E009DCA58 /* WXDailyForecast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXDailyForecast.h; sourceTree = "<group>"; };
+		35AB818A18D3879E009DCA58 /* WXDailyForecast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXDailyForecast.m; sourceTree = "<group>"; };
 		544366F76DA54965A777AE63 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		58B8BC502A6F4344A8A9FB92 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -1076,6 +1092,14 @@
 				35AB7D8B18D27DB6009DCA58 /* Supporting Files */,
 				35AB817918D298BA009DCA58 /* WXController.h */,
 				35AB817A18D298BA009DCA58 /* WXController.m */,
+				35AB817D18D3875E009DCA58 /* WXClient.h */,
+				35AB817E18D3875E009DCA58 /* WXClient.m */,
+				35AB818118D38771009DCA58 /* WXManager.h */,
+				35AB818218D38771009DCA58 /* WXManager.m */,
+				35AB818518D3878A009DCA58 /* WXCondition.h */,
+				35AB818618D3878A009DCA58 /* WXCondition.m */,
+				35AB818918D3879E009DCA58 /* WXDailyForecast.h */,
+				35AB818A18D3879E009DCA58 /* WXDailyForecast.m */,
 			);
 			path = SimpleWeather;
 			sourceTree = "<group>";
@@ -2263,6 +2287,7 @@
 				35AB805918D29891009DCA58 /* NSValueTransformer+MTLPredefinedTransformerAdditions.m in Sources */,
 				35AB808718D29891009DCA58 /* RACEXTRuntimeExtensions.m in Sources */,
 				35AB810318D29891009DCA58 /* RACSubscriptingAssignmentTrampoline.m in Sources */,
+				35AB818318D38771009DCA58 /* WXManager.m in Sources */,
 				35AB80AB18D29891009DCA58 /* NSString+RACSequenceAdditions.m in Sources */,
 				35AB813518D29891009DCA58 /* UITextField+RACSignalSupport.m in Sources */,
 				35AB80A718D29891009DCA58 /* NSSet+RACSequenceAdditions.m in Sources */,
@@ -2301,6 +2326,7 @@
 				35AB80A118D29891009DCA58 /* NSObject+RACPropertySubscribing.m in Sources */,
 				35AB807D18D29891009DCA58 /* Pods-TSMessages-dummy.m in Sources */,
 				35AB811B18D29891009DCA58 /* UIButton+RACCommandSupport.m in Sources */,
+				35AB818B18D3879E009DCA58 /* WXDailyForecast.m in Sources */,
 				35AB809F18D29891009DCA58 /* NSObject+RACLifting.m in Sources */,
 				35AB80B318D29891009DCA58 /* RACArraySequence.m in Sources */,
 				35AB80CF18D29891009DCA58 /* RACEmptySignal.m in Sources */,
@@ -2349,6 +2375,7 @@
 				35AB809318D29891009DCA58 /* NSIndexSet+RACSequenceAdditions.m in Sources */,
 				35AB80D518D29891009DCA58 /* RACGroupedSignal.m in Sources */,
 				35AB803F18D29891009DCA58 /* EXTRuntimeExtensions.m in Sources */,
+				35AB818718D3878A009DCA58 /* WXCondition.m in Sources */,
 				35AB80A918D29891009DCA58 /* NSString+RACKeyPathUtilities.m in Sources */,
 				35AB812318D29891009DCA58 /* UIDatePicker+RACSignalSupport.m in Sources */,
 				35AB809D18D29891009DCA58 /* NSObject+RACKVOWrapper.m in Sources */,
@@ -2357,6 +2384,7 @@
 				35AB811D18D29891009DCA58 /* UICollectionReusableView+RACSignalSupport.m in Sources */,
 				35AB810B18D29891009DCA58 /* RACTuple.m in Sources */,
 				35AB7D9518D27DB6009DCA58 /* AppDelegate.m in Sources */,
+				35AB817F18D3875E009DCA58 /* WXClient.m in Sources */,
 				35AB80AF18D29891009DCA58 /* NSURLConnection+RACSupport.m in Sources */,
 				35AB7D9118D27DB6009DCA58 /* main.m in Sources */,
 				35AB810518D29891009DCA58 /* RACSubscriptionScheduler.m in Sources */,
@@ -2376,6 +2404,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35AB818418D38771009DCA58 /* WXManager.m in Sources */,
 				35AB80FC18D29891009DCA58 /* RACStream.m in Sources */,
 				35AB80CE18D29891009DCA58 /* RACEmptySequence.m in Sources */,
 				35AB816418D29891009DCA58 /* TSBlurView.m in Sources */,
@@ -2386,6 +2415,7 @@
 				35AB806418D29891009DCA58 /* Pods-HexColors-dummy.m in Sources */,
 				35AB80DE18D29891009DCA58 /* RACKVOTrampoline.m in Sources */,
 				35AB80B618D29891009DCA58 /* RACBacktrace.m in Sources */,
+				35AB818C18D3879E009DCA58 /* WXDailyForecast.m in Sources */,
 				35AB80E418D29891009DCA58 /* RACPassthroughSubscriber.m in Sources */,
 				35AB80FE18D29891009DCA58 /* RACStringSequence.m in Sources */,
 				35AB7DAA18D27DB6009DCA58 /* SimpleWeatherTests.m in Sources */,
@@ -2488,6 +2518,8 @@
 				35AB812A18D29891009DCA58 /* UISegmentedControl+RACSignalSupport.m in Sources */,
 				35AB808C18D29891009DCA58 /* NSData+RACSupport.m in Sources */,
 				35AB80C018D29891009DCA58 /* RACCompoundDisposable.m in Sources */,
+				35AB818818D3878A009DCA58 /* WXCondition.m in Sources */,
+				35AB818018D3875E009DCA58 /* WXClient.m in Sources */,
 				35AB811218D29891009DCA58 /* RACUnit.m in Sources */,
 				35AB80FA18D29891009DCA58 /* RACSignalSequence.m in Sources */,
 				35AB80D418D29891009DCA58 /* RACEvent.m in Sources */,
